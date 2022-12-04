@@ -34,9 +34,9 @@ Z toho nám vychází, že jedno auto při plné obsazenosti nákladového prost
 
 # Testování vyložení / naložení jednoho boxu
 ## První test
-Při vykládání dodávky jedním pracovníkem trvá obsluha jednoho boxu v rozmezí 20 až 30 sekund, tedy střední hodnota je 25 sekund (odpovídá zhruba exponenciálnímu rozdělení). U 18 boxů to výjde na 7 minut a 30 sekund +- 90 sekund. Je potřeba si přičíst 3 minuty na režii potřebnou k zaparkování, odemčení stanice, uzamčení stanice a odjezdu.
+Při vykládání dodávky jedním pracovníkem trvá obsluha jednoho boxu v rozmezí 20 až 30 sekund, tedy střední hodnota je 25 sekund (odpovídá zhruba normálnímu rozdělení). U 18 boxů to výjde na 7 minut a 30 sekund +- 90 sekund. Je potřeba si přičíst 3 minuty na režii potřebnou k zaparkování, odemčení stanice, uzamčení stanice a odjezdu.
 ## Druhý test
-Při vykládání dodávky dvěma pracovníky trvá obsluha jednoho boxu v rozmězí 12 až 18 sekund, tedy střední hodnota je 15 sekund (odpovídá zhruba exponenciálnímu rozdělení). U 18 boxů to výjde na 4 minut a 30 sekund +- 54 sekund. Je potřeba si přičíst 2 minuty na režii potřebnou k zaparkování, odemčení stanice, uzamčení stanice a odjezdu. 
+Při vykládání dodávky dvěma pracovníky trvá obsluha jednoho boxu v rozmězí 12 až 18 sekund, tedy střední hodnota je 15 sekund (odpovídá zhruba normálnímu rozdělení). U 18 boxů to výjde na 4 minut a 30 sekund +- 54 sekund. Je potřeba si přičíst 2 minuty na režii potřebnou k zaparkování, odemčení stanice, uzamčení stanice a odjezdu. 
 
 ## SHO
-Doba naložení jedné tašky do auta v depu trvá 10 +- 3 sekundy (exp).
+Doba naložení jedné tašky do auta v depu trvá 10 +- 3 sekundy (norm).
